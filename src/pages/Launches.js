@@ -77,7 +77,7 @@ export default class Launches extends Component {
       <div className="row">
         {!!filteredData?.length
           ? filteredData?.map((mission, idx) => (
-            <MissionCard data={mission} key={idx} filters={{selectRocket, selectSite}}/>
+            <MissionCard data={mission} key={idx} />
           ))
           : <i>Нет миссий, подходящих под описание</i>}
       </div>
