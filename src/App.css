@@ -29,6 +29,26 @@
   margin: 0 auto;
 }
 
+.row:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.SelectsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.Select {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+
+.Select label {
+  font-style: italic;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
