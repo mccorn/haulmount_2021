@@ -11,8 +11,7 @@ export default class MissionCard extends Component {
   }
 
   render() {
-    const {data, filters} = this.props;
-    const {selectSite, selectRocket} = filters;
+    const {data} = this.props;
 
     if (!data) return null;
 
