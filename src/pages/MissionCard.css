@@ -1,0 +1,28 @@
+.MissionCard {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.MissionCard:not(:last-child) {
+    border-bottom: 1px solid gray;
+}
+
+.MissionCard:first-child {
+    border-top: 1px solid gray;
+}
+
+.MissionCard-Header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.MissionCard-Date {
+    color: grey;
+}
+
+.MissionCard-Title {
+    font-weight: bold;
+}
